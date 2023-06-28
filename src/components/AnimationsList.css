@@ -1,0 +1,29 @@
+.animation-box {
+    padding: 7px 5px;
+    overflow: hidden;
+}
+
+.animation-box .anim-cover {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 7px;
+}
+
+.animation-box .anim-title {
+    margin-bottom: 5px;
+}
+
+.animation-box .review-rate {
+    color: gold;
+    margin-left: 5px;
+}
+
+.sort-dropdown {
+
+}
+
+@media (min-width: 992px) {
+    .animation-box .anim-cover {
+        height: 270px;
+    }
+}
